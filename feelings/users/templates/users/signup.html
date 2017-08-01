@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% load bootstrap3 %}
+
+{% block title %}Sign Up | {{ block.super }}{% endblock %}
+
+{% block content %}
+<div class="container pt ">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Sign Up</h3>
+            <form action="" method="POST">
+                {% bootstrap_form form %}
+                {% csrf_token %}
+                <input type="submit" value="Sign Up" class="btn btn-primary">
+            </form>
+        </div>
+        <div class="col-md-6">
+            <h3>Sign Up to record whatever you are feeling today!!!</h3>
+        </div>
+    </div>
+</div>
+{% endblock %}
