@@ -1,0 +1,24 @@
+Content-Type: multipart/alternative;
+ boundary="===============3489429575727143782=="
+MIME-Version: 1.0
+Subject: New invitation!
+From: feelings@example.com
+To: testuser
+Date: Tue, 25 Jul 2017 09:11:07 -0000
+Message-ID: <20170725091107.871.88808@Dipaks-MacBook-Air.local>
+
+--===============3489429575727143782==
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+b"Hi test user!\n\nYou've been invited to join\nBrothers\n by Dipak Tripathi\n\nThanks!\nFeelings"
+--===============3489429575727143782==
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+b"<p>Hi test user!</p>\n\n<p>You've been invited to join\nBrothers\n     by Dipak Tripathi</p>\n\n<p>Thanks!</p>\n\n<p>Feelings</p>"
+--===============3489429575727143782==--
+
+-------------------------------------------------------------------------------
